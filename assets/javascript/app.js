@@ -89,7 +89,7 @@ $(document).ready(function() {
             $("#firstTrainInput").val("");
             $("#frequencyInput").val("");
 
-            
+            validated=false;
         }
 
     });    

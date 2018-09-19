@@ -126,12 +126,12 @@ $(document).ready(function() {
         tr.append(td_minTill);
         
 
-        var del_update = $("<button class='update'>");
+        var del_update = $("<button class='update my-1'>");
         del_update.attr("id",key);
         del_update.text("Update");
         tr.append(del_update);
 
-        var del_button = $("<button class='delete'>");
+        var del_button = $("<button class='delete my-1'>");
         del_button.attr("id",key);
         del_button.text("Delete");
         tr.append(del_button);
